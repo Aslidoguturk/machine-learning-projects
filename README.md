@@ -83,7 +83,7 @@ Titanic passenger dataset (course-provided CSV).
 **Key Result:**  
 Random Forest achieved the best overall performance (accuracy and F1-score), while SVM provided competitive results with a tuned RBF kernel, and KNN performed reasonably but was more sensitive to feature scaling and noise.
 
-Notebook: [`classification.ipynb`](./classification.ipynb)
+Notebook: [`classificationnnn.ipynb`](./classificationnnn.ipynb)
 
 ---
 
