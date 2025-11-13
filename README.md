@@ -41,7 +41,7 @@ California Housing dataset (course-provided CSV).
 **Key Result:**  
 Random Forest achieved the best performance (highest R², lowest MSE), outperforming both Linear Regression and XGBoost on the test set.
 
-Notebook: [`regression.ipynb`](./regression.ipynb)
+Notebook: [`regressionnnn.ipynb`](./regressionnnn.ipynb)
 
 ---
 
