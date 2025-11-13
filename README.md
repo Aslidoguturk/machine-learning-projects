@@ -2,14 +2,14 @@
 
 This repository contains two supervised machine learning projects completed in Python using Google Colab:
 
-1. 🏡 **Housing Price Prediction (Regression)**
-2. 🚢 **Titanic Survival Prediction (Classification)**
+1.  **Housing Price Prediction (Regression)**
+2.  **Titanic Survival Prediction (Classification)**
 
 These projects show end-to-end workflows: data cleaning, feature engineering, model training, hyperparameter tuning, and evaluation with visualisations.
 
 ---
 
-## 🏡 Project 1 – Housing Price Prediction (Regression)
+##  Project 1 – Housing Price Prediction (Regression)
 
 **Goal:**  
 Predict the median house value in California using numerical, categorical, and geospatial features.
@@ -26,9 +26,9 @@ California Housing dataset (course-provided CSV).
 - Split data into training (first 810 rows) and test set (last 190 rows).
 
 **Models compared:**
-- 🌲 **Random Forest Regressor** (main model, tuned with `RandomizedSearchCV`)
-- 🌳 **XGBoost Regressor** (baseline)
-- 📈 **Linear Regression** (baseline)
+-  **Random Forest Regressor** (main model, tuned with `RandomizedSearchCV`)
+-  **XGBoost Regressor** (baseline)
+-  **Linear Regression** (baseline)
 
 **Techniques used:**
 - `ColumnTransformer` + `Pipeline` for preprocessing  
@@ -45,7 +45,7 @@ Notebook: [`regressionnnn.ipynb`](./regressionnnn.ipynb)
 
 ---
 
-## 🚢 Project 2 – Titanic Survival Prediction (Classification)
+##  Project 2 – Titanic Survival Prediction (Classification)
 
 **Goal:**  
 Predict whether a Titanic passenger survived (0/1) based on demographic and ticket information.
@@ -65,9 +65,9 @@ Titanic passenger dataset (course-provided CSV).
 - Use last 140 rows as test set, the rest as training.
 
 **Models compared (all tuned):**
-- ⚙️ **SVM (RBF kernel)** – main model
-- 🌲 **Random Forest Classifier**
-- 👥 **K-Nearest Neighbours (KNN)**
+-  **SVM (RBF kernel)** – main model
+-  **Random Forest Classifier**
+-  **K-Nearest Neighbours (KNN)**
 
 **Techniques used:**
 - `GridSearchCV` for hyperparameter tuning of all three models
@@ -87,7 +87,7 @@ Notebook: [`classificationnnn.ipynb`](./classificationnnn.ipynb)
 
 ---
 
-## 🧠 Skills & Libraries Demonstrated
+##  Skills & Libraries Demonstrated
 
 - **Python**, **Pandas**, **NumPy**
 - **Scikit-learn**: preprocessing, pipelines, models, metrics, GridSearchCV, RandomizedSearchCV, cross-validation
@@ -97,7 +97,7 @@ Notebook: [`classificationnnn.ipynb`](./classificationnnn.ipynb)
 
 ---
 
-## 🔧 How to Use These Notebooks
+##  How to Use These Notebooks
 
 These projects were developed in **Google Colab**, but they can also be run locally.
 
@@ -105,3 +105,14 @@ These projects were developed in **Google Colab**, but they can also be run loca
    ```bash
    git clone https://github.com/Aslidoguturk/machine-learning-projects.git
    cd machine-learning-projects
+
+
+
+Open the notebooks (classification.ipynb, regression.ipynb) in:
+
+Jupyter Notebook / JupyterLab, or
+
+Google Colab (upload the file).
+
+📌 Note: The CSV datasets used in the coursework are not included in this repository.
+You can run the notebooks with your own copies of the same datasets or similar structured data.
